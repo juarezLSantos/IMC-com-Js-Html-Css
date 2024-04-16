@@ -134,6 +134,10 @@ td{
 
 }
 
+.linha-mensagem td{
+    text-align: center;
+}
+
 caption,
 th,
 td{
