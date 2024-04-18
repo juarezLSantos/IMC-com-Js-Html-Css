@@ -131,3 +131,11 @@ function montarTabela(listaDeCadastrados) {
   });
   tabela.innerHTML = template;
 }
+
+function deletarRegistros(){
+      localStorage.removeItem("usuariosCadastrados")
+
+      // localStorage.clear();
+      
+      window.location.reload();
+  }
